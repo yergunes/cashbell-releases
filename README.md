@@ -17,7 +17,7 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 ## What it does
 
-<img src="assets/dashboard.png" width="330" align="right" alt="The Cashbell dashboard: weekly revenue with trend and chart, daily goal, MRR, next milestone, per-project totals and recent sales">
+<img src="assets/dashboard.png" width="330" align="right" alt="The Cashbell dashboard: weekly revenue with trend and chart, daily goal, MRR, next milestone, per-project totals with goal progress, and recent sales">
 
 **💰 Live totals in the menu bar.** Today, 7 days, this month or all time, converted to your currency and net of refunds. Or show MRR, ARR, active subscriptions, or just the icon. Double-click the icon to open the dashboard in a window.
 
@@ -25,7 +25,7 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 **🪙 Celebrations you can feel.** Coin rain with a subtle 3D tumble on every display, a sale island on the screen you're working on, and a cha-ching. One switch mutes them all.
 
-**🎯 Goals, milestones and streaks.** Set a daily goal and the menu bar icon becomes a ring that fills through the day. Crossing $1K, $10K and beyond gets a fanfare, and so does a project's very first sale. Sell every day and a 🔥 streak shows up.
+**🎯 Goals, milestones and streaks.** Set a daily goal and the menu bar icon becomes a ring that fills through the day. Crossing $1K, $10K and beyond gets a fanfare, and so does a project's very first sale. Sell every day and a 🔥 streak shows up. Give any project its own goal too: revenue every month, every year or by a date ("$12K by December 31"), or an MRR target, with a bar that shows your pace.
 
 **↩️ Refund alerts.** Refunds and chargebacks show up as a red island, so nothing slips by.
 

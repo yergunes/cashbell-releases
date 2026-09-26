@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.jpg" alt="Ka-Ching: gold coins rain down the screen and a sale pill pops up when a sale comes in. Works with 15 payment platforms">
+  <img src="assets/hero.jpg" alt="Ka-Ching: gold coins rain down the screen and a sale pill pops up when a sale comes in. Works with 16 payment platforms">
 </p>
 
 <h3 align="center">Hear every sale. Your indie revenue, live in the menu bar.</h3>
@@ -11,7 +11,7 @@
 
 ---
 
-Ka-Ching is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy, Polar, Dodo Payments, PayPal, Shopify, WooCommerce, Gumroad, Whop, Mollie, Square, Razorpay and Chargebee**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *ka-ching*.
+Ka-Ching is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy, Polar, Dodo Payments, PayPal, Shopify, WooCommerce, Gumroad, Whop, Mollie, Square, Razorpay, Chargebee and RevenueCat**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *ka-ching*.
 
 No server, no account, no spreadsheet refreshing. Just the sound of your side projects paying off.
 
@@ -19,7 +19,7 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 <img src="assets/dashboard.png" width="330" align="right" alt="The Ka-Ching dashboard: weekly revenue with trend and chart, daily goal, MRR, next milestone, per-project totals and recent sales">
 
-**💰 Live totals in the menu bar.** Today, 7 days, this month or all time, converted to your currency and net of refunds.
+**💰 Live totals in the menu bar.** Today, 7 days, this month or all time, converted to your currency and net of refunds. Or show MRR, ARR, active subscriptions, or just the icon.
 
 **📊 Every project at a glance.** Revenue, sales count and MRR per project, plus a trend against the previous period and a chart you can hover.
 
@@ -33,7 +33,7 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 **🌍 Where it came from.** Each sale shows the buyer's country. Click the island to open the payment in your dashboard.
 
-**🤫 Privacy-aware.** In a call or sharing your screen? Ka-Ching mutes itself and hides the menu bar total, then recaps what you missed. "Show anyway" is one click when you *do* want to show off.
+**🤫 Privacy Mode.** One click at the bottom of the menu hides every amount and pauses celebrations, then recaps what you missed when you turn it off. It also switches on by itself while you're in a call or sharing your screen, and "Show anyway" is one click when you *do* want to show off.
 
 **🪟 Detachable dashboard.** Press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>K</kbd> from anywhere to open it in a window, and pin it on top like a widget.
 
@@ -52,7 +52,7 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 ## Insights
 
-<img src="assets/insights.png" width="400" align="right" alt="Insights window: net revenue, sales, average order, refund rate, countries, best day, sales mix, top products and top countries">
+<img src="assets/insights.png" width="400" align="right" alt="Insights overview: net revenue, sales, average order, refund rate, countries, best day, sales mix, top products and top countries">
 
 The numbers behind the totals, for today, 7 days, this month or all time:
 
@@ -61,7 +61,23 @@ The numbers behind the totals, for today, 7 days, this month or all time:
 - **Top products** and **top countries**
 - Your **best day** and the hour people buy the most
 
-Open it from the chart button in the menu.
+Open it from the chart button in the menu. Two more tabs sit next to the overview.
+
+<br clear="right">
+
+### Customer map
+
+<img src="assets/map.png" width="400" align="right" alt="Customer map: a 3D satellite globe with glowing bubbles on the countries customers buy from, and the top markets listed below">
+
+See where your customers are on a 3D globe, with day and night drawn live. Every country you sell to gets a glowing bubble sized by revenue. The globe opens over your biggest market, and the top markets are listed underneath: click one to spin the globe there.
+
+<br clear="right">
+
+### Wall of Wins
+
+<img src="assets/wins.png" width="400" align="right" alt="Wall of Wins: a timeline of the longest streak, all-time milestones, best day, best month and first sales">
+
+A timeline of the moments worth remembering: your first sale and each project's first sale, every milestone from $250 to $10K and beyond, your best day and best month, the biggest single sale and your longest sales streak. It's built from your sales history, so it's full from the moment you connect a store.
 
 <br clear="right">
 
@@ -108,6 +124,8 @@ Add one project per store. Read-only keys are all Ka-Ching needs: it never creat
 | Whop | Developer → API keys | A company key with `payment:basic:read`. |
 | **Subscription billing** | | |
 | Chargebee | Settings → Configure Chargebee → API Keys | A read-only key, plus your site name (the part before `.chargebee.com`). |
+| **In-app purchases** | | |
+| RevenueCat | Project settings → API keys → New secret key (v2) | Read access to *Charts & metrics*, plus your Project ID. App Store and Google Play sales arrive as a running daily total (no product names or countries), with MRR and active subscriptions. |
 
 Test mode works too: Creem, Paddle, Polar, Dodo Payments, PayPal and Square have a sandbox switch; the others follow the key you paste.
 

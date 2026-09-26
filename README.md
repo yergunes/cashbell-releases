@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.jpg" alt="Ka-Ching: gold coins rain down the screen and a sale pill pops up when a sale comes in">
+  <img src="assets/hero.jpg" alt="Ka-Ching: gold coins rain down the screen and a sale pill pops up when a sale comes in. Works with 15 payment platforms">
 </p>
 
 <h3 align="center">Hear every sale. Your indie revenue, live in the menu bar.</h3>
@@ -11,7 +11,7 @@
 
 ---
 
-Ka-Ching is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy and Gumroad**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *ka-ching*.
+Ka-Ching is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy, Polar, Dodo Payments, PayPal, Shopify, WooCommerce, Gumroad, Whop, Mollie, Square, Razorpay and Chargebee**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *ka-ching*.
 
 No server, no account, no spreadsheet refreshing. Just the sound of your side projects paying off.
 
@@ -89,13 +89,27 @@ Add one project per store. Read-only keys are all Ka-Ching needs: it never creat
 
 | Platform | Where to get the key | Tip |
 |---|---|---|
-| **Creem** | Dashboard → Developers → API Keys | Each store has its own key. |
-| **Paddle** (Billing) | Developer Tools → Authentication | Read access to transactions, subscriptions and adjustments. |
-| **Stripe** | Developers → API keys | Best: a restricted key with *Charges* and *Subscriptions* set to Read. |
-| **Lemon Squeezy** | Settings → API | One key covers all your stores. Add a Store ID to track just one. |
-| **Gumroad** | Settings → Advanced → Applications → Generate access token | Gumroad doesn't expose countries or MRR. |
+| **Merchant of Record** | | |
+| Creem | Dashboard → Developers → API Keys | Each store has its own key. |
+| Paddle (Billing) | Developer Tools → Authentication | Read access to transactions, subscriptions and adjustments. |
+| Lemon Squeezy | Settings → API | One key covers all your stores. Add a Store ID to track just one. |
+| Polar | Settings → Developers → New token | Give it `orders:read` and `subscriptions:read` (`disputes:read` optional). |
+| Dodo Payments | Developer → API Keys | Use a test-mode key for test mode. |
+| **Payments** | | |
+| Stripe | Developers → API keys | Best: a restricted key with *Charges* and *Subscriptions* set to Read. |
+| PayPal | developer.paypal.com → Apps & Credentials → REST app | Enable *Transaction Search*, then paste Client ID and Secret. PayPal lists transactions up to ~3 hours late. |
+| Square | Developer Console → your app → Credentials | Production (or Sandbox) access token. Several locations? Add a Location ID. |
+| Mollie | Dashboard → Developers → API keys | `live_` for real payments, `test_` for test mode. |
+| Razorpay | Account & Settings → API Keys | Paste Key ID and Key Secret. Razorpay doesn't expose buyer countries. |
+| **Commerce & creators** | | |
+| Shopify | Dev Dashboard → create an app with `read_orders` | Install it on your store, then paste Client ID and secret (a legacy `shpat_` token works too). Add `read_all_orders` for history older than 60 days. |
+| WooCommerce | WooCommerce → Settings → Advanced → REST API | A key with Read permission, plus your store URL. |
+| Gumroad | Settings → Advanced → Applications → Generate access token | Gumroad doesn't expose countries or MRR. |
+| Whop | Developer → API keys | A company key with `payment:basic:read`. |
+| **Subscription billing** | | |
+| Chargebee | Settings → Configure Chargebee → API Keys | A read-only key, plus your site name (the part before `.chargebee.com`). |
 
-Test mode works too: Creem and Paddle have a sandbox switch, while Stripe and Lemon Squeezy follow the key you paste.
+Test mode works too: Creem, Paddle, Polar, Dodo Payments, PayPal and Square have a sandbox switch; the others follow the key you paste.
 
 ## Privacy
 

@@ -5,7 +5,7 @@
 <h3 align="center">Hear every sale. Your indie revenue, live in the menu bar.</h3>
 
 <p align="center">
-  <a href="https://github.com/yergunes/ka-ching-releases/releases/latest"><b>⬇&nbsp;Download for macOS</b></a>
+  <a href="https://github.com/yergunes/cashbell-releases/releases/latest"><b>⬇&nbsp;Download for macOS</b></a>
   &nbsp;·&nbsp; macOS 14 or later &nbsp;·&nbsp; Apple Silicon &amp; Intel
 </p>
 
@@ -40,6 +40,8 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 **🔔 Weekly and daily summaries.** A Monday-morning notification with last week's revenue, the change and your top project. Daily summaries are one switch away.
 
 **⬆️ Updates itself.** When a new version is out, a dot appears on the menu bar icon and a banner at the top of the menu and Settings. One click installs it in place, and your projects and history stay put.
+
+**💾 Backup and move.** Export your projects, settings, sales history and logos to one file, with API keys encrypted by a password you choose. Import it on another Mac and you're set.
 
 <br clear="right">
 
@@ -92,7 +94,7 @@ Building in public? Turn any period into a ready-to-post 1200×630 card for X or
 
 ## Install
 
-1. [Download the latest DMG](https://github.com/yergunes/ka-ching-releases/releases/latest) and drag **Cashbell** into Applications.
+1. [Download the latest DMG](https://github.com/yergunes/cashbell-releases/releases/latest) and drag **Cashbell** into Applications.
 2. Open it. Cashbell lives in your **menu bar**: look for the <b>$</b> icon at the top right.
 3. Click the icon, then **Settings… → Add Project**, and paste an API key.
 
@@ -157,7 +159,7 @@ Yes. The switch at the bottom of the menu mutes coin rain, island and sound toge
 
 ## Release notes
 
-See [Releases](https://github.com/yergunes/ka-ching-releases/releases) for what's new in each version.
+See [Releases](https://github.com/yergunes/cashbell-releases/releases) for what's new in each version.
 
 ---
 

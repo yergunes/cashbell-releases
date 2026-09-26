@@ -23,9 +23,9 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 **📊 Every project at a glance.** Revenue, sales count and MRR per project, plus a trend against the previous period and a chart you can hover.
 
-**🪙 Celebrations you can feel.** Coin rain on every display, a sale island on the screen you're working on, and a cha-ching. One switch mutes them all.
+**🪙 Celebrations you can feel.** Coin rain with a subtle 3D tumble on every display, a sale island on the screen you're working on, and a cha-ching. One switch mutes them all.
 
-**🎯 Goals and milestones.** Set a daily goal and the menu bar icon becomes a ring that fills through the day. Crossing $1K, $10K and beyond gets a fanfare, and so does a project's very first sale.
+**🎯 Goals, milestones and streaks.** Set a daily goal and the menu bar icon becomes a ring that fills through the day. Crossing $1K, $10K and beyond gets a fanfare, and so does a project's very first sale. Sell every day and a 🔥 streak shows up.
 
 **↩️ Refund alerts.** Refunds and chargebacks show up as a red island, so nothing slips by.
 
@@ -37,9 +37,41 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 **🪟 Detachable dashboard.** Press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>K</kbd> from anywhere to open it in a window, and pin it on top like a widget.
 
+**🔔 Weekly and daily summaries.** A Monday-morning notification with last week's revenue, the change and your top project. Daily summaries are one switch away.
+
 **⬆️ Updates itself.** New versions install in place, and your projects and history stay put.
 
 <br clear="right">
+
+## Make it yours
+
+- **Themes.** System, Midnight, Forest, Ocean, Graphite or Paper, plus any accent color you like.
+- **Project logos.** Drop in a logo and it shows up in the menu, the sale island and your recent sales.
+- **A sound and a rain per project.** Pick cha-ching, coin drop, bell, chime or arcade, and rain gold or silver coins, dollar bills, gems, stars, confetti, or your own logo minted into a gold coin. Preview them right from Settings.
+- **Your order.** Drag projects into the order you want to see them.
+
+## Insights
+
+<img src="assets/insights.png" width="400" align="right" alt="Insights window: net revenue, sales, average order, refund rate, countries, best day, sales mix, top products and top countries">
+
+The numbers behind the totals, for today, 7 days, this month or all time:
+
+- Net revenue, sales, **average order** and **refund rate**
+- **Sales mix:** one-time vs. new subscriptions vs. renewals
+- **Top products** and **top countries**
+- Your **best day** and the hour people buy the most
+
+Open it from the chart button in the menu.
+
+<br clear="right">
+
+## Share your progress
+
+<p align="center">
+  <img src="assets/share-card.png" width="620" alt="Share card: last 7 days revenue, growth, sales count, chart and top projects, with copy, save and share buttons">
+</p>
+
+Building in public? Turn any period into a ready-to-post 1200×630 card for X or LinkedIn. Copy, save or share it in one click. Rather keep revenue private? Switch off **Show amounts** and the card shows only your growth and sale count.
 
 ## Install
 

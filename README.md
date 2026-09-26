@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.jpg" alt="Ka-Ching: gold coins rain down the screen and a sale pill pops up when a sale comes in. Works with 16 payment platforms">
+  <img src="assets/hero.jpg" alt="Cashbell: gold coins rain down the screen and a sale pill pops up when a sale comes in. Works with 16 payment platforms">
 </p>
 
 <h3 align="center">Hear every sale. Your indie revenue, live in the menu bar.</h3>
@@ -11,13 +11,13 @@
 
 ---
 
-Ka-Ching is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy, Polar, Dodo Payments, PayPal, Shopify, WooCommerce, Gumroad, Whop, Mollie, Square, Razorpay, Chargebee and RevenueCat**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *ka-ching*.
+Cashbell is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy, Polar, Dodo Payments, PayPal, Shopify, WooCommerce, Gumroad, Whop, Mollie, Square, Razorpay, Chargebee and RevenueCat**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *cha-ching*.
 
 No server, no account, no spreadsheet refreshing. Just the sound of your side projects paying off.
 
 ## What it does
 
-<img src="assets/dashboard.png" width="330" align="right" alt="The Ka-Ching dashboard: weekly revenue with trend and chart, daily goal, MRR, next milestone, per-project totals and recent sales">
+<img src="assets/dashboard.png" width="330" align="right" alt="The Cashbell dashboard: weekly revenue with trend and chart, daily goal, MRR, next milestone, per-project totals and recent sales">
 
 **💰 Live totals in the menu bar.** Today, 7 days, this month or all time, converted to your currency and net of refunds. Or show MRR, ARR, active subscriptions, or just the icon. Double-click the icon to open the dashboard in a window.
 
@@ -92,17 +92,19 @@ Building in public? Turn any period into a ready-to-post 1200×630 card for X or
 
 ## Install
 
-1. [Download the latest DMG](https://github.com/yergunes/ka-ching-releases/releases/latest) and drag **Ka-Ching** into Applications.
-2. Open it. Ka-Ching lives in your **menu bar**: look for the <b>$</b> icon at the top right.
+1. [Download the latest DMG](https://github.com/yergunes/ka-ching-releases/releases/latest) and drag **Cashbell** into Applications.
+2. Open it. Cashbell lives in your **menu bar**: look for the <b>$</b> icon at the top right.
 3. Click the icon, then **Settings… → Add Project**, and paste an API key.
 
-> **Can't see the icon?** On MacBooks with a camera notch, a full menu bar hides icons behind it. Open Ka-Ching again from Applications (or press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>K</kbd>) and the dashboard opens in a window. Also check **System Settings → Menu Bar**.
+> **Can't see the icon?** On MacBooks with a camera notch, a full menu bar hides icons behind it. Open Cashbell again from Applications (or press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>K</kbd>) and the dashboard opens in a window. Also check **System Settings → Menu Bar**.
 
 The app is signed and notarized by Apple, so it opens without security warnings.
 
+> **Coming from Ka-Ching?** Cashbell is the same app with a new name. It updates in place, and your projects, keys and history stay. The app file in Applications keeps its old name until you reinstall; rename it to Cashbell if you like.
+
 ## Connecting your stores
 
-Add one project per store. Read-only keys are all Ka-Ching needs: it never creates, changes or refunds anything.
+Add one project per store. Read-only keys are all Cashbell needs: it never creates, changes or refunds anything.
 
 | Platform | Where to get the key | Tip |
 |---|---|---|
@@ -132,14 +134,14 @@ Test mode works too: Creem, Paddle, Polar, Dodo Payments, PayPal and Square have
 
 ## Privacy
 
-- **Your data stays on your Mac.** Ka-Ching talks directly to your payment providers. There is no Ka-Ching server, account, analytics or tracking.
+- **Your data stays on your Mac.** Cashbell talks directly to your payment providers. There is no Cashbell server, account, analytics or tracking.
 - **API keys live in the macOS Keychain**, never in plain files.
 - **The only other network calls** are daily exchange rates from [Frankfurter](https://frankfurter.dev) (ECB data) and a daily update check against this repository.
 
 ## FAQ
 
 **How real-time is it?**
-Ka-Ching checks every minute by default (30 seconds to 10 minutes in Settings). A new sale shows up within one check.
+Cashbell checks every minute by default (30 seconds to 10 minutes in Settings). A new sale shows up within one check.
 
 **Will it hit my API rate limits?**
 No. After a one-time history import, each check costs a single request per project (two on Paddle and Lemon Squeezy), and it backs off automatically if a provider says slow down.

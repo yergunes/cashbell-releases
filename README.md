@@ -19,7 +19,7 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 <img src="assets/dashboard.png" width="330" align="right" alt="The Ka-Ching dashboard: weekly revenue with trend and chart, daily goal, MRR, next milestone, per-project totals and recent sales">
 
-**💰 Live totals in the menu bar.** Today, 7 days, this month or all time, converted to your currency and net of refunds. Or show MRR, ARR, active subscriptions, or just the icon.
+**💰 Live totals in the menu bar.** Today, 7 days, this month or all time, converted to your currency and net of refunds. Or show MRR, ARR, active subscriptions, or just the icon. Double-click the icon to open the dashboard in a window.
 
 **📊 Every project at a glance.** Revenue, sales count and MRR per project, plus a trend against the previous period and a chart you can hover.
 
@@ -39,13 +39,14 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 **🔔 Weekly and daily summaries.** A Monday-morning notification with last week's revenue, the change and your top project. Daily summaries are one switch away.
 
-**⬆️ Updates itself.** New versions install in place, and your projects and history stay put.
+**⬆️ Updates itself.** When a new version is out, a dot appears on the menu bar icon and a banner at the top of the menu and Settings. One click installs it in place, and your projects and history stay put.
 
 <br clear="right">
 
 ## Make it yours
 
-- **Themes.** System, Midnight, Forest, Ocean, Graphite or Paper, plus any accent color you like.
+- **Themes.** Lacquer (black and gold, the default), System, Midnight, Forest, Ocean, Graphite or Paper, plus any accent color you like. Settings follows your theme too.
+- **Menu bar icon.** A dollar coin, a coin stack, a bell, a banknote, a crown or a chart. Or no icon at all, just the number.
 - **Project logos.** Drop in a logo and it shows up in the menu, the sale island and your recent sales.
 - **A sound and a rain per project.** Pick cha-ching, coin drop, bell, chime or arcade, and rain gold or silver coins, dollar bills, gems, stars, confetti, or your own logo minted into a gold coin. Preview them right from Settings.
 - **Your order.** Drag projects into the order you want to see them.

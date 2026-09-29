@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.jpg" alt="Cashbell: gold coins rain down the screen and a sale pill pops up when a sale comes in. Works with 16 payment platforms">
+  <img src="assets/hero.jpg" alt="Cashbell: gold coins rain down the screen and a sale pill pops up when a sale comes in. Works with 17 platforms, the App Store included">
 </p>
 
 <h3 align="center">Hear every sale. Your indie revenue, live in the menu bar.</h3>
@@ -11,7 +11,7 @@
 
 ---
 
-Cashbell is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy, Polar, Dodo Payments, PayPal, Shopify, WooCommerce, Gumroad, Whop, Mollie, Square, Razorpay, Chargebee and RevenueCat**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *cha-ching*.
+Cashbell is a tiny macOS menu bar app for indie makers who sell on **Creem, Paddle, Stripe, Lemon Squeezy, Polar, Dodo Payments, PayPal, Shopify, WooCommerce, Gumroad, Whop, Mollie, Square, Razorpay, Chargebee, RevenueCat and the App Store**. Add your projects once. From then on, every new sale rains gold coins down your screen, pops up a Dynamic Island–style pill with what sold and where, and plays a satisfying *cha-ching*.
 
 No server, no account, no spreadsheet refreshing. Just the sound of your side projects paying off.
 
@@ -33,7 +33,9 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 
 **🌍 Where it came from.** Each sale shows the buyer's country. Click the island to open the payment in your dashboard.
 
-**🤫 Privacy Mode.** One click at the bottom of the menu hides every amount and pauses celebrations, then recaps what you missed when you turn it off. It also switches on by itself while you're in a call or sharing your screen, and "Show anyway" is one click when you *do* want to show off.
+**📱 App Store apps.** Connect App Store Connect once and switch on the apps you want: each one becomes its own project, with its App Store icon. Apple publishes sales once a day, so each morning's report arrives as a single island with the day's sales and countries. Free app? Turn on downloads to see each app's first-time downloads too (they never count as revenue).
+
+**🤫 Privacy Mode.** The eye next to your total hides every amount, the menu bar number included, and pauses celebrations, then recaps what you missed when you turn it off. It also switches on by itself while you're in a call or sharing your screen, and "Show anyway" is one click when you *do* want to show off.
 
 **🪟 Detachable dashboard.** Press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>K</kbd> from anywhere to open it in a window, and pin it on top like a widget.
 
@@ -131,6 +133,7 @@ Add one project per store. Read-only keys are all Cashbell needs: it never creat
 | Chargebee | Settings → Configure Chargebee → API Keys | A read-only key, plus your site name (the part before `.chargebee.com`). |
 | **In-app purchases** | | |
 | RevenueCat | Project settings → API keys → New secret key (v2) | Read access to *Charts & metrics*, plus your Project ID. App Store and Google Play sales arrive as a running daily total (no product names or countries), with MRR and active subscriptions. |
+| App Store | App Store Connect → Users and Access → Integrations → Team Keys → **+** with the **Sales** role | Download the .p8 file (Apple offers it only once), then add the Issuer ID, Key ID and your vendor number (top left of *Payments and Financial Reports*). One connection covers all your apps; pick which ones to track. Apple reports sales once a day, the next morning (about 8 a.m. Pacific). |
 
 Test mode works too: Creem, Paddle, Polar, Dodo Payments, PayPal and Square have a sandbox switch; the others follow the key you paste.
 
@@ -138,24 +141,24 @@ Test mode works too: Creem, Paddle, Polar, Dodo Payments, PayPal and Square have
 
 - **Your data stays on your Mac.** Cashbell talks directly to your payment providers. There is no Cashbell server, account, analytics or tracking.
 - **API keys live in the macOS Keychain**, never in plain files.
-- **The only other network calls** are daily exchange rates from [Frankfurter](https://frankfurter.dev) (ECB data) and a daily update check against this repository.
+- **The only other network calls** are daily exchange rates from [Frankfurter](https://frankfurter.dev) (ECB data), a daily update check against this repository and, for App Store apps, their icons from Apple's public App Store lookup.
 
 ## FAQ
 
 **How real-time is it?**
-Cashbell checks every minute by default (30 seconds to 10 minutes in Settings). A new sale shows up within one check.
+Cashbell checks every minute by default (30 seconds to 10 minutes in Settings). A new sale shows up within one check. The App Store is the exception: Apple publishes sales once a day, so yesterday's arrive the next morning.
 
 **Will it hit my API rate limits?**
 No. After a one-time history import, each check costs a single request per project (two on Paddle and Lemon Squeezy), and it backs off automatically if a provider says slow down.
 
 **I have several products on the same platform.**
-Add each store as its own project, with its own color. Lemon Squeezy can split one account into several projects by Store ID.
+Add each store as its own project, with its own color. Lemon Squeezy can split one account into several projects by Store ID, and one App Store connection gives each of your apps its own project.
 
 **Different currencies?**
 Totals are converted to the currency you choose (USD, EUR, GBP or TRY) using daily ECB rates. Individual sales keep their original currency.
 
 **Can I turn the coins off during focus time?**
-Yes. The switch at the bottom of the menu mutes coin rain, island and sound together. The animations, displays and sounds can also be tuned one by one in Settings.
+Yes. **Settings → Alerts → Sale animations** mutes coin rain, island and sound together. The animations, displays and sounds can also be tuned one by one there, and quiet hours silence the sound on a schedule.
 
 ## Release notes
 

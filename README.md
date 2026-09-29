@@ -53,7 +53,8 @@ No server, no account, no spreadsheet refreshing. Just the sound of your side pr
 - **Menu bar icon.** A dollar coin, a coin stack, a bell, a banknote, a crown or a chart. Or no icon at all, just the number.
 - **Project logos.** Drop in a logo and it shows up in the menu, the sale island and your recent sales.
 - **A sound and a rain per project.** Pick cha-ching, coin drop, bell, chime or arcade, and rain gold or silver coins, dollar bills, gems, stars, confetti, or your own logo minted into a gold coin. Preview them right from Settings.
-- **Your order.** Drag projects into the order you want to see them.
+- **Your order.** Drag projects into the order you want to see them, or list them by revenue.
+- **A menu that fits.** Choose how many projects show (the rest fold into one row with their total) and how many recent sales, or none. However many projects you add, the menu stays on screen.
 
 ## Insights
 
